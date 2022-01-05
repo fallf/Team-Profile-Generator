@@ -1,25 +1,41 @@
-.title {
-  background-color: rgb(249, 103, 103);
+header {
   color: white;
+  background-color: red;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  margin: 15px;
+  padding: 10px;
 }
-.card-title {
-  color: white;
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+  padding: 10px;
 }
-.response {
-  color: rgb(67, 67, 232);
-  margin-left: 2px;
-}
+
 .card {
-  box-shadow: 4px 3px 4px gray;
+  padding: 10px;
+  margin: 15px;
 }
-.card-body {
-  width: 100.5%;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+
+.card-header {
+  color: white;
+  background-color: rgba(0, 0, 255, 0.584);
 }
-i {
-  margin-right: 0.4em;
+
+.list-group {
+  color: black;
 }
-.card-employee {
-  flex-flow: wrap;
+
+/* MAKE IT ALL ON ONE LINE AND SMALLER */
+.list-group-item {
+  white-space: nowrap;
+  overflow: visible;
+}
+
+#email {
+  color: rgba(0, 0, 255, 0.584);
 }
