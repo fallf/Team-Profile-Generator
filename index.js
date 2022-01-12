@@ -77,10 +77,13 @@ const promptMenu = () => {
             type: 'list',
             name: 'menu',
             message: 'Please select which option you would like to continue with:',
-            choices: ['add an engineer', 'add an intern', 'finish building my team']
+            choices: ['Manager','add an engineer', 'add an intern', 'finish building my team']
         }])
         .then(userChoice => {
             switch (userChoice.menu) {
+                case "add an manager":
+                promptEngineer();
+                    break;
                 case "add an engineer":
                     promptEngineer();
                     break;
